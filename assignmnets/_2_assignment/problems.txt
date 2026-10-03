@@ -1,0 +1,25 @@
+
+Question 2
+Lecture 9 (Regression) wrote the L1 loss as the signed sum of residuals (predicted minus expected), with no absolute value, and computed a value of minus 5 for the example error column (-2, 0, -2, -1). (Check the PDF notes)
+
+Show that this exact quantity is a broken thing to minimize.
+
+Using at most 4 points, exhibit other error columns that score as good as or better than minus 5 while fitting the data far worse, so that "signed sum near its best value" is compatible with huge individual errors. State the minimal fix to the formula, and in one sentence say what the fixed loss gives you that L2 does not.
+
+Question 3
+XOR logic gates works as follows
+
+two binary inputs giving one binary output (x1,x2) -> y 
+
+according to this rule: 
+
+(0,0)->0, (0,1)->1, (1,0)->1, (1,1)->0.
+
+
+
+Prove from these four inputs  directly, that no single threshold neuron f(w1*x1 + w2*x2 + b) can compute XOR for any choice of w1, w2, b, threshold.
+
+Now keep one neuron but add a single engineered feature x3 computed from x1 and x2 by a rule you choose. Give x3, the weights, bias, and threshold that make the neuron compute XOR, and verify all four rows. Then explain why this does not contradict your proof: be precise about what the proof assumed and what the feature transform changed.
+
+Finally, tie this to lecture 8: if an engineer picks x3 to encode a prejudice, is that model bias or data bias, where does it live, and does the lecture's two column table miss a third location? (i.e. is there another kind of bias ?)
+
