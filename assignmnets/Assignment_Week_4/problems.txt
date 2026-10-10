@@ -1,0 +1,41 @@
+Question 1
+
+Consider the function of x below, where z is a real constant:
+
+f(x) = 2x + 3, if x > 0
+f(x) = -2x + 5z + 4, if x < 0
+f(x) = 5z, if x = 0
+
+a - For which value of z, if any, is f continuous at x = 0?
+b - For which value of z, if any, does the right-hand derivative exist at x = 0? State its value.
+c - Does the left-hand derivative ever exist at x = 0? Justify using the difference quotient.
+d - For which value of z, if any, does the two-sided derivative at x = 0 exist?
+e - Calculate all derivatives of f that do exist, and explain each answer using limits.
+
+
+
+Question 2
+
+Let Loss = a * b + c, with a = 3, b = -2, c = 5, and a fixed learning rate of 0.1.
+
+a - Compute the current loss.
+b - Compute dL/da and dL/db.
+c - Update a and b using one gradient-descent step with the given learning rate (keep c fixed). Show the new values of a and b.
+d - Recompute the loss with the updated values and confirm numerically whether it went down.
+e - Connect the sign of each derivative to the direction each variable moved, and argue why the negative value of the derivative is used to update the inputs when training a neural network.
+f - This loss is unbounded below. Explain what that means for part (d) and why it makes “reduce the loss” an ill-posed goal here.
+
+
+
+Question 3
+
+Let
+a = 5
+b = 3
+c = -2
+e = a / b  (a divided by b)
+f = c + e
+g = 6
+L = f * g
+
+Calculate (partial) derivative(s) of L wrt L, g,f,e,c,b,a

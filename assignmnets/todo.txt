@@ -1,0 +1,14 @@
+TODO:
+    - what is bias and variance? > something about matrix compose was mentioned it
+        > the question revolves around matrices multiplication - DONE
+        > analogy of neuron with sopranos > show - DONE
+        > write an matrix multiplication code, after that push it > as well as make notes out of it
+
+        > jupyter notebook - coefficient & intercept (that prediction of price of flat with area & square)
+        > wtf, is mean squared error?
+
+        > what is difference data or input bias?
+
+    - for prog_3 write text how single perceptron does the job (and why it fails for third one)
+        > https://www.youtube.com/watch?v=s7nRWh_3BtA
+        > add a solution of how third input helps the same
