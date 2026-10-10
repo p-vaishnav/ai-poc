@@ -43,7 +43,7 @@ Parameter count is headcount. It tells you how big the crew is, not how good the
   - Post-training. Instruction tuning and RLHF change behavior enormously with almost no new parameters.
   - Inference-time compute (when an new data is provided model tries to map it with)
 
-
+  
 
 '''
 
